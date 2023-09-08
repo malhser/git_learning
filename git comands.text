@@ -1,0 +1,52 @@
+git version
+git config --global user.name "lokeshdevop"
+git config --global user.email "lokeshkarnam7@gmail.com"
+git global -- config --e
+git config --config --list
+git config --list
+git init
+git add
+git commit -m "comments"
+git push origin master
+git clone <url>                https://github.com/deepak203/suresh-techs.git
+git remote -v - show connected repo
+git remote add origin <url>
+git push -u origin master
+git branch -a
+git branch -r
+git show -branch
+git log
+git log --oneline --graph --all
+git log -1
+git branch <branch name>
+git checkout <branch name>
+git show -branch
+git merge <copying branch>
+git fetch origin
+git merge <branch>
+git merge orgin master
+git log --pretty=full,fuller,short
+git config --global alias.allcomits "log --oneline --all"
+git rebase <branch>
+git stash <file branch>
+git stash apply
+git stash list
+git stash apply stash@{1}
+git stash drop
+git stash pop
+git stash -u
+git stash branch <b name>
+.gitignore
+git clean -f
+git clean -f -d
+git clean -f -d -x
+git clean -f -(dry -clean)n
+git tag
+git tag <name>
+git tag -a <name>
+git diff tag1 tag2
+git tag -d name
+git tag -a tagname -f new commit id
+git push origin tagname
+git push origin --tags
+git tag -list "v1."
